@@ -12,15 +12,15 @@ Or to temporarily allow an instance of powershell to allow scripts, open a poers
 You can load the script by running `. <path to file>`
 
 ### Usage
-After loading function(script) (with `. .\zappinps1`)
-`zappin -Path <path> -Shuffle -Loop -zapstart -zap -Duration`
-`-Shuffle` (default false) enables shuffled playback, else sequential
-`-Loop` (default false) enables repeat
-`-zapstart` (default true) start at random position
-`-zap` (default true) play each song for 'Duration' seconds
-`-Duration <seconds in int>` (Default 30) play zap feature for Mentioned seconds
-To get control back to shell use `Ctrl+C`(^C)
-to stop, use `zappin -Stop`
+After loading function(script) (with `. .\zappinps1`)  
+`zappin -Path <path> -Shuffle -Loop -zapstart -zap -Duration`  
+`-Shuffle` (default false) enables shuffled playback, else sequential  
+`-Loop` (default false) enables repeat  
+`-zapstart` (default true) start at random position  
+`-zap` (default true) play each song for 'Duration' seconds  
+`-Duration <seconds in int>` (Default 30) play zap feature for Mentioned seconds  
+To get control back to shell use `Ctrl+C`(^C)  
+to stop, use `zappin -Stop`  
 to resume Verbose(filenames) of player use `zappin -Verbose`
 
 ### To-Do
